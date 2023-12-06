@@ -113,7 +113,8 @@ if __name__ == "__main__":
     #
     # Fixed args - don't change these unless you have a good reason
     #
-    dataset_path = os.path.join(os.path.dirname(__file__), 'data', 'mscoco')
+    # dataset_path = os.path.join(os.path.dirname(__file__), 'data', 'mscoco')
+    dataset_path = "/kaggle/input/merged-expw/merge"
     style_images_path = os.path.join(os.path.dirname(__file__), 'data', 'style-images')
     model_binaries_path = os.path.join(os.path.dirname(__file__), 'models', 'binaries')
     checkpoints_root_path = os.path.join(os.path.dirname(__file__), 'models', 'checkpoints')
